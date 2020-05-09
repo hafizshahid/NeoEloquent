@@ -1,5 +1,5 @@
 {
-    "name": "ulobby/neoeloquent",
+    "name": "hafizshahid/neoeloquent",
     "description": "Laravel wrapper for the Neo4j graph database REST interface",
     "keywords": [
         "laravel",
@@ -17,15 +17,19 @@
         {
             "name": "Ulobby",
             "email": "ulobby@ulobby.eu"
+        },
+        {
+            "name": "Shahid Iqbal",
+            "email": "hafizshahid@gmail.com"
         }
     ],
     "require": {
         "php": ">=7.2",
-        "illuminate/support": "5.8.*",
-        "illuminate/database": "5.8.*",
-        "illuminate/pagination": "5.8.*",
-        "illuminate/events": "5.8.*",
-        "illuminate/console": "5.8.*",
+        "illuminate/support": "7.10.*",
+        "illuminate/database": "7.10.*",
+        "illuminate/pagination": "7.10.*",
+        "illuminate/events": "7.10.*",
+        "illuminate/console": "7.10.*",
         "heydavid713/neo4jphp": "0.1.*",
         "nesbot/carbon": "^2.0"
     },
@@ -47,7 +51,7 @@
         ]
     },
     "replace": {
-        "vinelab/neoeloquent":"1.4.7"
+        "ulobby/NeoEloquent":"1.4.7"
     },
     "minimum-stability": "stable",
     "extra": {
