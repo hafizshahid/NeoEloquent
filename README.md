@@ -1,10 +1,10 @@
-[![Build Status](https://travis-ci.org/Ulobby/NeoEloquent.svg?branch=master)](https://travis-ci.org/Ulobby/NeoEloquent)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/4b18de9ea45b4b2c96a8f78a25db6480)](https://www.codacy.com/manual/berteltorp/NeoEloquent?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=ulobby/NeoEloquent&amp;utm_campaign=Badge_Grade)
+[![Build Status](https://travis-ci.org/hafizshahid/NeoEloquent.svg?branch=master)](https://travis-ci.org/hafizshahid/NeoEloquent)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/4b18de9ea45b4b2c96a8f78a25db6480)](https://www.codacy.com/manual/berteltorp/NeoEloquent?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=hafizshahid/NeoEloquent&amp;utm_campaign=Badge_Grade)
 
 # NeoEloquent
-Neo4j Graph Eloquent Driver for Laravel, this is a fork of [Vinelab/NeoEloquent](https://github.com/Vinelab/NeoEloquent) maintained by [Ulobby](https://www.ulobby.eu) as the original repo is not maintained anymore.
+Neo4j Graph Eloquent Driver for Laravel, this is a fork of [Vinelab/NeoEloquent](https://github.com/Vinelab/NeoEloquent) maintained by [hafizshahid](https://www.techliance.com) as the original repo is not maintained anymore.
 
-At Ulobby use NeoEloquent in production for a lot of the crud operations in our Laravel based SaaS. We usually end up writing raw cypher for more complex operations, as a consequence of this we currently do not recommend using polymorphic-relationships.
+At hafizshahid use NeoEloquent in production for a lot of the crud operations in our Laravel based SaaS. We usually end up writing raw cypher for more complex operations, as a consequence of this we currently do not recommend using polymorphic-relationships.
 
 ## Chat & Support
 Join the [Official Neo4j Slack Group](https://neo4j.com/blog/public-neo4j-users-slack-group/) and use the #neo4j-php channel.
@@ -26,14 +26,14 @@ Join the [Official Neo4j Slack Group](https://neo4j.com/blog/public-neo4j-users-
 
 Add the package to your `composer.json` and run `composer update`.
 
-### Laravel 5
+### Laravel 6.x
 
-#### 5.8
+#### 6.x
 
 ```json
 {
     "require": {
-        "ulobby/neoeloquent": "^1.4.7"
+        "hafizshahid/neoeloquent": "^1.4.7"
     }
 }
 ```
