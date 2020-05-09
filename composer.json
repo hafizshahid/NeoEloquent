@@ -51,7 +51,7 @@
         ]
     },
     "replace": {
-        "ulobby/NeoEloquent":"1.4.7"
+        "vinelab/neoeloquent":"1.4.7"
     },
     "minimum-stability": "stable",
     "extra": {
