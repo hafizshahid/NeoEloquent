@@ -25,7 +25,7 @@
     ],
     "require": {
         "php": ">=7.2",
-        "illuminate/support": "^7.10.3",
+        "illuminate/support": "^7.10.*",
         "illuminate/database": "^7.10.3",
         "illuminate/pagination": "^7.10.3",
         "illuminate/events": "^7.10.3",
