@@ -29,7 +29,7 @@
         "illuminate/database": "7.10.3",
         "illuminate/pagination": "7.10.3",
         "illuminate/events": "7.10.3",
-        "illuminate/console": "7.10.3",
+        "illuminate/console": "^5.0",
         "heydavid713/neo4jphp": "0.1.*",
         "nesbot/carbon": "^2.0"
     },
